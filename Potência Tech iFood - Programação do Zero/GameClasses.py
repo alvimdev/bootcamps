@@ -23,7 +23,7 @@ def role_quirk(r):
         return "Pedras"
     
 naruto = Hero("Narudo Uzumaki", 16, "Ninja")
-adalb = Hero("Adalberto", 34, "Servente de Pedreiro")
+macilio = Hero("Marcio", 20, "Servente de Pedreiro") # Meu querido grande pai em seus 20 anos de idade 
 
 naruto.attack(role_quirk("ninja"))
-adalb.attack(role_quirk("pedreiro"))
+macilio.attack(role_quirk("pedreiro"))
