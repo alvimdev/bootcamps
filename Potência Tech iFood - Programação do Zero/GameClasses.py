@@ -11,6 +11,7 @@ class Hero:
         print(f'O {self.role}, {self.name}, atacou usando {quirk}')
         
 def role_quirk(r):
+    r = r.lower()
     if r == "Warrior".lower():
         return "Espada"
     elif r == "Mage".lower():
@@ -26,4 +27,4 @@ naruto = Hero("Narudo Uzumaki", 16, "Ninja")
 macilio = Hero("Marcio", 20, "Servente de Pedreiro") # Meu querido grande pai em seus 20 anos de idade 
 
 naruto.attack(role_quirk("ninja"))
-macilio.attack(role_quirk("pedreiro"))
+macilio.attack(role_quirk("Pedreiro"))
