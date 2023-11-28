@@ -12,13 +12,13 @@ class Hero:
         
 def role_quirk(r):
     r = r.lower()
-    if r == "Warrior".lower():
+    if r == "warrior":
         return "Espada"
-    elif r == "Mage".lower():
+    elif r == "mage":
         return "Magia"
-    elif r == "Monk".lower():
+    elif r == "monk":
         return "Artes Marciais"
-    elif r == "Ninja".lower():
+    elif r == "ninja":
         return "Shuriken"
     else:
         return "Pedras"
